@@ -50,7 +50,7 @@ Choose the APK that matches your Android device:
 2. Open it and allow your browser or file manager to install APKs if Android asks.
 3. Install and open **FF.Dev Tun**.
 
-The first `com.app.ffdev.tun` installation is a new app. Later releases with the same package and signing identity install as regular updates.
+The first `com.app.ffdev.tun` installation is a new app. Later releases with the same package name install as regular updates.
 
 ## Release safety
 
