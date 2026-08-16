@@ -33,7 +33,6 @@ Choose the APK that matches your Android device:
 - TLS and XTLS-Vision profile support
 - IPv4-safe DNS routing
 - Kill switch support
-- Signed release APKs for Android
 
 ## App details
 
