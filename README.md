@@ -60,7 +60,7 @@ Do not install APKs shared through unofficial links or modified mirrors.
 
 ## Support
 
-For a problem with a specific release, open an issue with the app version, device model and Android version. Please never post private VLESS profiles, UUIDs, certificate pins or server credentials.
+For a problem with a specific release, [open a support issue](../../issues/new/choose) with the app version, device model and Android version. Please never post private VLESS profiles, UUIDs, certificate pins or server credentials.
 
 ## License
 
