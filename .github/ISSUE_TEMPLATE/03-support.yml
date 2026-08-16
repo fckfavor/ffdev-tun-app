@@ -1,0 +1,28 @@
+name: Question or support
+description: Ask a usage or installation question.
+title: "[Question]: "
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please check the README and release notes first.
+        **Never post VLESS links, UUIDs, certificate pins, server addresses or credentials.**
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      placeholder: "0.4.2"
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Device and relevant context
+      description: Include device model and Android version, but no private connection details.
