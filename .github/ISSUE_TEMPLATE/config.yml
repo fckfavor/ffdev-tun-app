@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Release downloads
+    url: https://github.com/fckfavor/ffdev-tun-app/releases
+    about: Download official APKs and read release notes.
