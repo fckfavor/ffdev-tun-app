@@ -1,69 +1,67 @@
-# FF.Dev Tun
+<p align="center">
+  <img src="assets/ffdev-tun-icon.png" alt="FF.Dev Tun" width="112" />
+</p>
+
+<h1 align="center">FF.Dev Tun</h1>
 
 <p align="center">
-  <strong>Fast, private and simple Android tunneling.</strong><br>
-  Official signed APK releases for FF.Dev Tun.
+  A clean, reliable Android VPN app for Xray/VLESS connections.
 </p>
 
 <p align="center">
-  <a href="https://github.com/fckfavor/ffdev-tun-app/releases/latest">Latest release</a>
-  ·
-  <a href="https://github.com/fckfavor/ffdev-tun-app/releases">All releases</a>
+  <a href="https://github.com/fckfavor/ffdev-tun-app/releases/latest"><strong>Download latest release</strong></a>
+  &nbsp; · &nbsp;
+  <a href="https://github.com/fckfavor/ffdev-tun-app/releases">View all releases</a>
 </p>
+
+---
 
 ## Download
 
-Choose the APK that matches your device:
+Choose the APK that matches your Android device:
 
-| Device architecture | Download |
-| --- | --- |
-| ARM64 — most modern Android phones | [Download ARM64 APK](../../releases/latest/download/app-arm64-v8a-release.apk) |
-| ARMv7 — older 32-bit ARM phones | [Download ARMv7 APK](../../releases/latest/download/app-armeabi-v7a-release.apk) |
+| Version | Best for | Download |
+|:--|:--|:--:|
+| ARM64 | Most modern Android phones and tablets | [Download APK](../../releases/latest/download/app-arm64-v8a-release.apk) |
+| ARMv7 | Older 32-bit ARM devices | [Download APK](../../releases/latest/download/app-armeabi-v7a-release.apk) |
 
-If you are unsure, ARM64 is the right choice for most devices released in recent years.
+> Not sure which one to choose? Try **ARM64** first.
 
-## About
+## Features
 
-FF.Dev Tun is a closed-source Android VPN application built for reliable Xray/VLESS tunneling.
+- Xray/VLESS VPN tunneling
+- TLS and XTLS-Vision profile support
+- IPv4-safe DNS routing
+- Kill switch support
+- Signed release APKs for Android
 
-- App name: `FF.Dev Tun`
-- Android package: `com.app.ffdev.tun`
-- Minimum Android version: Android 8.0 (API 26)
-- Release format: signed APK
-- Supported release architectures: ARM64 and ARMv7
+## App details
 
-## Install and update
+| | |
+|:--|:--|
+| App name | **FF.Dev Tun** |
+| Package | `com.app.ffdev.tun` |
+| Android requirement | Android 8.0 (API 26) or newer |
+| Architectures | ARM64, ARMv7 |
 
-1. Download the correct APK from the official Releases page.
-2. Open the APK and allow installation from your browser or file manager if Android asks.
-3. Install and launch **FF.Dev Tun**.
+## Install
 
-The first `com.app.ffdev.tun` installation is a new app identity. Future releases with the same package name and signing key install as normal updates without replacing app data.
+1. Download the APK for your device from the table above.
+2. Open it and allow your browser or file manager to install APKs if Android asks.
+3. Install and open **FF.Dev Tun**.
 
-## Verify a download
+The first `com.app.ffdev.tun` installation is a new app. Later releases with the same package and signing identity install as regular updates.
 
-Every official release includes:
+## Release safety
 
-- SHA-256 checksums for each APK
-- VirusTotal scan link and scan date
-- Android signing certificate SHA-256 fingerprint
+Each official release includes its APK SHA-256 checksum and a VirusTotal scan link in the release notes. Before installing, download only from this repository and compare the checksum shown on the release page with the file you downloaded.
 
-Compare the SHA-256 value before installing. The official signing certificate fingerprint is:
-
-```text
-df04b14e9efdaecd7167169db06ea6c4f52d78be5aaa92a5adb4f10db058d539
-```
-
-Only download APKs from this repository's GitHub Releases. Do not trust APKs shared through unofficial links or modified mirrors.
-
-## Privacy and security
-
-FF.Dev Tun is distributed as a signed APK. The app requires Android VPN and network permissions needed to create and operate the tunnel. Review the release notes and verification details before installing.
+Do not install APKs shared through unofficial links or modified mirrors.
 
 ## Support
 
-For a release-specific issue, open a GitHub issue and include the app version, device model, Android version and relevant log details. Never post private VLESS profiles, UUIDs, certificate pins or server credentials.
+For a problem with a specific release, open an issue with the app version, device model and Android version. Please never post private VLESS profiles, UUIDs, certificate pins or server credentials.
 
 ## License
 
-The application is closed-source. This repository is an official binary distribution channel only.
+FF.Dev Tun is closed-source. This repository is the official binary distribution channel.
