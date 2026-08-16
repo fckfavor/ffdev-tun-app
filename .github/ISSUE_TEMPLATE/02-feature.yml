@@ -1,0 +1,27 @@
+name: Feature request
+description: Suggest an improvement for FF.Dev Tun.
+title: "[Request]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe the user benefit clearly.
+        **Do not include private VLESS profiles or server credentials.**
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      placeholder: I would like to...
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
